@@ -1,0 +1,43 @@
+body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #000000;
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+}
+
+.score_board {
+  position: absolute;
+  text-align: center;  
+  margin-left: 25%; 
+  width: 50%; 
+  background-color: green; 
+  border: 3px solid lightgreen; 
+  padding: 10px; 
+  color: white
+}
+
+.middle_text {
+  position: absolute; 
+  text-align: center; 
+  font-size: 30px; 
+  margin: 25%; 
+  width: 50%; 
+  background-color: gray; 
+  border: 3px solid black; 
+  padding: 10px; 
+  color: black;
+}
+
+.health {
+  position: absolute;
+  text-align: center;  
+  margin-top: 45%; 
+  width: 10%; 
+  background-color: red; 
+  border: 3px solid orange; 
+  padding: 10px; 
+  color: black
+}
